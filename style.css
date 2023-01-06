@@ -26,8 +26,10 @@ header nav {
 	display: flex;
 	margin-left: 119px;
 }
-header li{
+header li {
 	display: inline;
+}
+header nav li{
 	margin-right: 32px;
 }
 header li a {
@@ -43,10 +45,11 @@ header a:hover {
 }
 .login {
 	display: flex;
-	margin-left: 348px;
+	margin-left: 318px;
 }
-#botao {
+.botao-principal {
 	padding: 10px 18px;
+	margin-right: 10px;
 	color: white;
 	width: 112px;
 	height: 44px;
@@ -54,6 +57,21 @@ header a:hover {
 	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 	border-radius: 8px;
 }
-#botao:hover {
+.botao-principal:hover {
+	color: white;
 	background-color: #a92929;
+}
+.botao-secundario {
+	padding: 10px 18px;
+	margin-right: 10px;
+	color: #667085;
+	width: 112px;
+	height: 44px;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+}
+.botao-secundario:hover {
+	color: #8E2424;
+	background-color: #f1f1f1;
 }
