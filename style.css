@@ -8,29 +8,22 @@ body {
 header {
 	background-color: white;
 	display: flex;
-  	justify-content: space-between;
+  	justify-content: space-around;
   	flex-direction: row;
 	align-items: center;
-	justify-content: flex-start;
   	height: 80px;
   	width: 1440px;
   	margin: 0 auto;
   	font-family: 'Inter';
 }
-header h1 {
+header ul {
 	display: flex;
-	margin-left: 112px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
 }
-
-header nav {
-	display: flex;
-	margin-left: 119px;
-}
-header li {
-	display: inline;
-}
-header nav li{
-	margin-right: 32px;
+header nav li {
+	margin: 20px;
 }
 header li a {
 	text-decoration: none;
@@ -42,10 +35,6 @@ header li a {
 }
 header a:hover {
 	color: #8E2424;
-}
-.login {
-	display: flex;
-	margin-left: 318px;
 }
 .botao-principal {
 	padding: 10px 18px;
