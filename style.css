@@ -1,8 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --text-color: #667085;
-  --main-color: #8E2424;
+	--main-color: #8E2424;
+  	--text-color: #667085;
 }
 
 body {
@@ -10,48 +10,48 @@ body {
 }
 
 nav {
+	align-items: center;
 	display: flex;
   	justify-content: space-around;
- 	align-items: center;
   	padding: 1rem 0;
 }
 
 .links a {
-	text-decoration: none;
 	color: var(--text-color);
 	margin-right: 2rem;
+	text-decoration: none;
 }
 .links a:hover {
 	color: var(--main-color);
 }
 
 .botao{
-	padding: 0.8rem 1rem;
 	color: var(--text-color);
 	background-color: #ffffff;
 	border-radius: .3rem;
 	border: 0;
 	cursor: pointer;
+	padding: 0.8rem 1rem;
 }
 .botao:hover {
-	color: #8E2424;
 	background-color: #f1f1f1;
+	color: #8E2424;
 }
 
 .botao-principal {
-	color: white;
 	background-color: var(--main-color);
+	color: white;
 }
 .botao-principal:hover {
-	color: white;
 	background-color: #a92929;
+	color: white;
 }
 
 header {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	padding: 4rem;
+	padding: 7rem;
 }
 
 header span {
@@ -61,15 +61,45 @@ header span {
 }
 
 header h1 {
-	margin-top: 2rem;
-	font-weight: bold;
 	color: #101828;
-	font-size: xx-large;
+	font-size: 48px;
+	font-weight: 600;
+	margin-top: 2rem;
+	text-align: center;
 }
 
 header p{
-	margin-top: 2rem;
 	color: var(--text-color);
+	margin-top: 2rem;
 	text-align: center;
 	width: 50vw;
+}
+
+.metricas {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.metricas div {
+	width: 15vw;
+}
+
+.metricas h2 {
+	color: var(--main-color);
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.metricas h3 {
+	color: black;
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 1rem;
+}
+
+.metricas p {
+	color: var(--text-color);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 1rem;
 }
