@@ -52,25 +52,24 @@ header {
 	display: flex;
 	flex-direction: column;
 	padding: 7rem;
+	gap: 2rem;
 }
 
 header span {
 	color: var(--main-color);
-	font-size: small;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
 header h1 {
 	color: #101828;
-	font-size: 48px;
+	font-size: 3rem;
 	font-weight: 600;
-	margin-top: 2rem;
 	text-align: center;
 }
 
 header p{
 	color: var(--text-color);
-	margin-top: 2rem;
 	text-align: center;
 	width: 50vw;
 }
@@ -86,20 +85,54 @@ header p{
 
 .metricas h2 {
 	color: var(--main-color);
-	font-size: 60px;
+	font-size: 4rem;
 	font-weight: 600;
 }
 
 .metricas h3 {
 	color: black;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 1.2rem;
 	margin-top: 1rem;
 }
 
 .metricas p {
 	color: var(--text-color);
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 1rem;
 	margin-top: 1rem;
+}
+
+.vagas {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 7rem;
+	gap: 1rem;
+}
+
+.vagas span {
+	padding: 0.5rem;
+	color: var(--main-color);
+	border-radius: 5rem;
+	background-color: rgba(142, 36, 36, 0.05);
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.vagas h2 {
+	color: #101828;
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.vagas p{
+	color: var(--text-color);
+	text-align: center;
+	width: 50vw;
+}
+
+.vagas img{
+	width: 85vw;
 }
